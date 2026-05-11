@@ -1,0 +1,8 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"H1,H2,H3,H4","4","MountingHole","","從 BOM 中移除","","MountingHole:MountingHole_4mm","~"
+"J1","1","CAN1_IN","","","","Connector:643260100405","~"
+"J2","1","Can1_1","","","","Connector:643260100405","~"
+"J3","1","Can1_2","","","","Connector:643260100405","~"
+"J4","1","Can1_3","","","","Connector:643260100405","~"
+"J5","1","Can1_4","","","","Connector:643260100405","~"
+"J6","1","Can1_5","","","","Connector:643260100405","~"

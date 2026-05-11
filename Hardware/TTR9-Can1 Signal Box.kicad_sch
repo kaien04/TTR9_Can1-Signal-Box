@@ -1,0 +1,2395 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e50ebe1b-2400-4e87-b3d4-608592bb59f6")
+	(paper "A4")
+	(title_block
+		(title "TTR9-Can1 Signal Box")
+		(date "2026-05-10")
+		(rev "v1.0")
+		(company "Taipei Tech Racing 9th")
+		(comment 1 "Designed by kai")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 92.71 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fd0a505-5e2c-4043-99c9-4619718c07f8")
+	)
+	(junction
+		(at 92.71 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27e8a26f-bff5-4de8-88bd-f9ca449c7cb2")
+	)
+	(junction
+		(at 153.67 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e33ed625-b0c2-49fd-a378-4a24389183a7")
+	)
+	(junction
+		(at 153.67 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb6ea37f-b7a7-4ca8-82a7-271595cfdca8")
+	)
+	(junction
+		(at 92.71 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f923950f-35f5-40c7-bd16-a4e0319a91f0")
+	)
+	(junction
+		(at 153.67 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff0ede9f-80a1-4126-b5c8-8a6df4ad1de7")
+	)
+	(no_connect
+		(at 154.94 119.38)
+		(uuid "6e0d131c-dd03-4a8e-86ca-baccc932a264")
+	)
+	(no_connect
+		(at 154.94 86.36)
+		(uuid "a1bb55a5-6ab5-4a57-b080-abdf36ee44ad")
+	)
+	(no_connect
+		(at 93.98 86.36)
+		(uuid "bc29ac20-3b8e-49f8-ac92-37ef7559d73a")
+	)
+	(no_connect
+		(at 93.98 119.38)
+		(uuid "c47feed4-6dd1-4685-8487-3811c84ad619")
+	)
+	(no_connect
+		(at 154.94 53.34)
+		(uuid "c5b796e1-bf72-4080-b0db-2d9f29ba49ec")
+	)
+	(no_connect
+		(at 93.98 53.34)
+		(uuid "f04605ee-7a52-4765-86d7-c6d20e59b3bf")
+	)
+	(bus_entry
+		(at 77.47 114.3)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc21802-e240-405e-811c-a54cf03d859f")
+	)
+	(bus_entry
+		(at 138.43 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1bd875-f730-40b0-ab46-bc87e7dc3480")
+	)
+	(bus_entry
+		(at 77.47 81.28)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d00dc95-bbd5-4424-b476-ac49c6d0201e")
+	)
+	(bus_entry
+		(at 138.43 48.26)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568b96f2-2657-4646-afb0-c01862cbed52")
+	)
+	(bus_entry
+		(at 77.47 109.22)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d19b11-9c05-4446-8f4a-0bf491c6f3e4")
+	)
+	(bus_entry
+		(at 77.47 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78799d46-c5ca-4fef-b18a-ecf8c7927dfb")
+	)
+	(bus_entry
+		(at 138.43 109.22)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf7f866-83dd-4a3e-b81d-a4e2f6f6b6a7")
+	)
+	(bus_entry
+		(at 77.47 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d316314-9f37-4ab2-b05c-1b5986e7a6f9")
+	)
+	(bus_entry
+		(at 77.47 48.26)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c767dcd5-2138-467d-a8cc-6d07e83554ee")
+	)
+	(bus_entry
+		(at 138.43 114.3)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e162df6f-b75a-411e-bd21-99f38006ad69")
+	)
+	(bus_entry
+		(at 138.43 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3899e78-0dbd-40d7-9b51-d7f855546f18")
+	)
+	(bus_entry
+		(at 138.43 81.28)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb65dc0-b147-4640-ad19-2ef50de2435c")
+	)
+	(bus
+		(pts
+			(xy 138.43 109.22) (xy 135.89 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c584771-a7cb-4bc0-b2d0-1694a52c8228")
+	)
+	(wire
+		(pts
+			(xy 140.97 78.74) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101f0b19-5fbe-4de1-9c88-2cbf0033b684")
+	)
+	(wire
+		(pts
+			(xy 92.71 76.2) (xy 92.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107e112c-14b9-4a13-bc5c-8ee638ff4956")
+	)
+	(wire
+		(pts
+			(xy 153.67 114.3) (xy 153.67 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e2e6c7-17b9-4b45-b5b7-b12a1aaf1aed")
+	)
+	(bus
+		(pts
+			(xy 138.43 114.3) (xy 138.43 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a872b50-e419-451f-907f-f75fb748624e")
+	)
+	(bus
+		(pts
+			(xy 77.47 43.18) (xy 74.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2cea1c-d990-427a-8888-f743e5d2a67f")
+	)
+	(wire
+		(pts
+			(xy 80.01 78.74) (xy 93.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257e5a8c-e8cc-4c60-a8b2-305f5dd9ac76")
+	)
+	(wire
+		(pts
+			(xy 92.71 43.18) (xy 92.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a4a8d2-0c85-4f3d-8e77-a4279c612b7e")
+	)
+	(wire
+		(pts
+			(xy 92.71 48.26) (xy 92.71 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef23b02-f9cf-4379-a446-43ae1301bc0d")
+	)
+	(bus
+		(pts
+			(xy 138.43 48.26) (xy 138.43 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361937b7-7375-4af9-95b4-020e9ed496c8")
+	)
+	(bus
+		(pts
+			(xy 138.43 81.28) (xy 138.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377942c9-b99d-48cb-b78b-61eb62c8b452")
+	)
+	(bus
+		(pts
+			(xy 138.43 43.18) (xy 135.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab70cd5-3613-408f-abbb-6913a99f8ce8")
+	)
+	(wire
+		(pts
+			(xy 140.97 83.82) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d65e6f8-bd21-4a5c-a577-dcf3a444dae1")
+	)
+	(wire
+		(pts
+			(xy 92.71 114.3) (xy 92.71 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f18aca2-1e2b-47df-b16a-5dc58c3c77e0")
+	)
+	(wire
+		(pts
+			(xy 154.94 114.3) (xy 153.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ec21cb-8b37-4a4d-b67f-87951a53aa0d")
+	)
+	(wire
+		(pts
+			(xy 153.67 109.22) (xy 153.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47734cfe-f8f2-4c66-ad4f-0d3241077777")
+	)
+	(bus
+		(pts
+			(xy 77.47 81.28) (xy 77.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480d82e4-2a93-4868-b219-4977613a7f00")
+	)
+	(wire
+		(pts
+			(xy 93.98 114.3) (xy 92.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cd6070-8078-4664-a0d5-c14bf9293c35")
+	)
+	(wire
+		(pts
+			(xy 93.98 76.2) (xy 92.71 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4bdf6c-a6f7-4af8-91f8-dee8b94f656b")
+	)
+	(wire
+		(pts
+			(xy 154.94 43.18) (xy 153.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eaf38b2-24f1-43e6-9e82-dda6d41b960a")
+	)
+	(wire
+		(pts
+			(xy 140.97 111.76) (xy 154.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56022056-073d-4a95-a525-94910638da64")
+	)
+	(wire
+		(pts
+			(xy 140.97 45.72) (xy 154.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5832d330-6a8a-421f-be01-e95651d5d883")
+	)
+	(wire
+		(pts
+			(xy 140.97 116.84) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c52a20c-c204-4c84-ba89-35b9b1e90144")
+	)
+	(bus
+		(pts
+			(xy 77.47 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df6cc2a-c6cd-4ac5-bdaf-df3902fc9e3b")
+	)
+	(wire
+		(pts
+			(xy 80.01 45.72) (xy 93.98 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2c2432-6407-4791-a396-eccb8cbe1470")
+	)
+	(bus
+		(pts
+			(xy 77.47 114.3) (xy 77.47 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be27067-702d-4566-a441-b5e5a445de98")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 92.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c355606-45b4-4ebd-8467-9179baec81fc")
+	)
+	(wire
+		(pts
+			(xy 153.67 43.18) (xy 153.67 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764aa09e-f518-46b6-b582-6ac563515f35")
+	)
+	(wire
+		(pts
+			(xy 93.98 43.18) (xy 92.71 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765628a5-badb-45cf-b940-1f35cdaeeba4")
+	)
+	(wire
+		(pts
+			(xy 80.01 83.82) (xy 93.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b51f885-f996-4e98-b6e2-efa7636a9f1a")
+	)
+	(wire
+		(pts
+			(xy 93.98 81.28) (xy 92.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88216311-6f96-4640-80cb-410daf29dc70")
+	)
+	(bus
+		(pts
+			(xy 138.43 76.2) (xy 135.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca80d9f-c426-4f23-99e3-389c7616dc08")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 153.67 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90399df3-2095-48f8-ba58-f84bdaac4536")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 93.98 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962a0456-2c83-445c-b664-8d1fa62f2c44")
+	)
+	(wire
+		(pts
+			(xy 80.01 116.84) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98285562-0eb5-4869-8fce-44a120f0bb26")
+	)
+	(wire
+		(pts
+			(xy 153.67 48.26) (xy 153.67 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9b30e1-b7d5-4f9e-a0b7-c8c6ab80432b")
+	)
+	(wire
+		(pts
+			(xy 153.67 81.28) (xy 153.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff4f5b2-d779-4aff-a132-c7ec9f54be43")
+	)
+	(bus
+		(pts
+			(xy 77.47 48.26) (xy 77.47 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b582b4-ee38-4fb4-872b-e14d3908278b")
+	)
+	(wire
+		(pts
+			(xy 92.71 109.22) (xy 92.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad69c99b-cb1e-4d63-b8d6-1e3c111b6c33")
+	)
+	(wire
+		(pts
+			(xy 140.97 50.8) (xy 154.94 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9eb6128-23c6-419a-94d0-e365ed47a4bb")
+	)
+	(wire
+		(pts
+			(xy 154.94 48.26) (xy 153.67 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39411a9-8632-4530-9052-b4b606ddc02a")
+	)
+	(wire
+		(pts
+			(xy 154.94 81.28) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe924a5-2f4e-48f3-a282-23724e042fa8")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc71622a-f08a-4c0c-a62d-9e2d9d8a2ad3")
+	)
+	(wire
+		(pts
+			(xy 93.98 48.26) (xy 92.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b59b22-8707-4f11-b65b-658b7e05b2cc")
+	)
+	(bus
+		(pts
+			(xy 77.47 109.22) (xy 74.93 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e3d0c9-8a38-4f37-a0c2-89253647ee55")
+	)
+	(wire
+		(pts
+			(xy 80.01 111.76) (xy 93.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0deac6-b449-4010-a626-03ceaed38a86")
+	)
+	(wire
+		(pts
+			(xy 154.94 109.22) (xy 153.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee25edeb-19ed-4525-aa24-cf4fb3ef0665")
+	)
+	(wire
+		(pts
+			(xy 93.98 109.22) (xy 92.71 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22cbafd-0dde-4c4b-a775-f2aae26de23e")
+	)
+	(label "CAN1.+"
+		(at 142.24 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02782c92-bd55-4130-b592-ee83c9a995b1")
+	)
+	(label "CAN1.-"
+		(at 81.28 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06674307-b9dc-41ad-961f-a379ec0bdb26")
+	)
+	(label "CAN1.+"
+		(at 81.28 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07d98d56-3b18-4c73-9b1a-ad77c6fd9a75")
+	)
+	(label "CAN1.-"
+		(at 142.24 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1af1c29e-d3ea-443c-8faf-de618435a6db")
+	)
+	(label "CAN1.-"
+		(at 142.24 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b6dd8e5-e61f-4da3-9122-d2429e076001")
+	)
+	(label "CAN1.+"
+		(at 142.24 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f7f5eb3-490f-4cb7-8de4-33d0946f941d")
+	)
+	(label "CAN1.+"
+		(at 142.24 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55c7f634-bced-47ce-82ac-706815d75b4e")
+	)
+	(label "CAN1.+"
+		(at 81.28 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62756485-b52f-414c-88b6-35d20219144d")
+	)
+	(label "CAN1.-"
+		(at 81.28 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8759930d-2ab3-4687-a54e-0af4d6860e6d")
+	)
+	(label "CAN1.-"
+		(at 81.28 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d04d798a-c58b-402e-bc77-578c6240bd5e")
+	)
+	(label "CAN1.-"
+		(at 142.24 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e03920fa-3c4a-4f85-88d2-4a3073095ecd")
+	)
+	(label "CAN1.+"
+		(at 81.28 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec7fe78d-bb31-435d-bfd1-047ae390edac")
+	)
+	(hierarchical_label "CAN1{+,-}"
+		(shape bidirectional)
+		(at 74.93 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06c77a3e-7648-4835-abb3-861f8631e671")
+	)
+	(hierarchical_label "CAN1{+,-}"
+		(shape bidirectional)
+		(at 135.89 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5828a8a5-9f1d-4554-8074-47a2c63bd806")
+	)
+	(hierarchical_label "CAN1{+,-}"
+		(shape bidirectional)
+		(at 74.93 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f8e080d-83b6-497f-a7b3-334ab41d8a60")
+	)
+	(hierarchical_label "CAN1{+,-}"
+		(shape bidirectional)
+		(at 135.89 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "797b73a4-409b-4ec4-b2aa-b2749f0cd7e2")
+	)
+	(hierarchical_label "CAN1{+,-}"
+		(shape bidirectional)
+		(at 74.93 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7df37212-2646-4f71-bc66-5bdde9e16a81")
+	)
+	(hierarchical_label "CAN1{+,-}"
+		(shape bidirectional)
+		(at 135.89 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85a1aa8d-f432-475b-bb3e-006fd1c77112")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 196.85 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b5b587a-bfdb-4402-994a-4b7d9437ed94")
+		(property "Reference" "H2"
+			(at 199.39 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 199.39 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4mm"
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 160.02 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cf948ea-80d0-4270-984f-394150d544e2")
+		(property "Reference" "J4"
+			(at 162.56 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Can1_3"
+			(at 162.56 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:643260100405"
+			(at 160.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 160.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe93d4e1-d011-4145-b865-32a2b1d0c356")
+		)
+		(pin "5"
+			(uuid "581328f0-756b-41a0-ad58-4211cd1ed0fc")
+		)
+		(pin "4"
+			(uuid "a40760bc-ff62-4d4c-b70e-f0ffde54f652")
+		)
+		(pin "1"
+			(uuid "14c08244-4dec-44e8-abab-fef552522d36")
+		)
+		(pin "3"
+			(uuid "bc3ee5f2-9368-4831-82b5-35ede0a7408b")
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 196.85 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1194ba9a-749c-4a81-90df-4ae6eb8076e8")
+		(property "Reference" "H3"
+			(at 199.39 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 199.39 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4mm"
+			(at 196.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 196.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2051d3c7-e498-4432-a5bb-84ed714989f4")
+		(property "Reference" "#PWR02"
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d56a21ec-e2aa-4e99-889a-5c683d9ef748")
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27cd6c1b-b7f2-4c16-9276-e8908f2c78b1")
+		(property "Reference" "#PWR09"
+			(at 153.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a08d4d5c-14ba-4aa3-9e7e-9e3793df96f2")
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 99.06 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4791c48b-3f8e-4140-9504-1f7b9aa22437")
+		(property "Reference" "J3"
+			(at 101.6 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Can1_2"
+			(at 101.6 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:643260100405"
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8c78a74-ea6e-46cd-803d-6a6eed385ab9")
+		)
+		(pin "5"
+			(uuid "45db9eb4-dbdf-4c0c-abf4-f36d3957e1e2")
+		)
+		(pin "4"
+			(uuid "60c9f74e-f450-484f-8864-148c2dc6f172")
+		)
+		(pin "1"
+			(uuid "bc6d435b-c8f0-4a01-860b-99cbbe30f35b")
+		)
+		(pin "3"
+			(uuid "cc062cc6-8d34-415b-a880-2cd65a61ba85")
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c6a98ae-8356-4c90-8955-14d362ea111b")
+		(property "Reference" "#PWR06"
+			(at 92.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb084038-30ee-495f-b482-0df871365e48")
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 160.02 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83a4642e-ab8e-4648-9e9c-8a1d1a3e6fe8")
+		(property "Reference" "J6"
+			(at 162.56 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Can1_5"
+			(at 162.56 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:643260100405"
+			(at 160.02 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 160.02 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "498b1fdf-71aa-419a-a928-3fcc9c198858")
+		)
+		(pin "5"
+			(uuid "d8385ad4-ac45-44ab-a30a-5c60159b11ab")
+		)
+		(pin "4"
+			(uuid "86f2fe9e-14a4-45d3-a545-d09c7d1fe949")
+		)
+		(pin "1"
+			(uuid "83c398aa-a37a-4203-8fc7-47dadbc6dbc7")
+		)
+		(pin "3"
+			(uuid "bba089cc-a9a9-4832-adca-aff1679a138c")
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 196.85 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86af4b2e-8d0c-4be2-a474-1b8f26c4f64f")
+		(property "Reference" "H1"
+			(at 199.39 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 199.39 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4mm"
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f1d7fec-0c37-4155-bfcd-666c21334147")
+		(property "Reference" "#PWR013"
+			(at 153.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30e78104-1901-450e-9ffd-cb3242f7a14c")
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 99.06 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a609d877-bb8e-4fa7-bbc6-fbbd827ce097")
+		(property "Reference" "J2"
+			(at 101.6 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Can1_1"
+			(at 101.6 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:643260100405"
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a9d366e-cb93-45fd-af05-781091fb96b6")
+		)
+		(pin "5"
+			(uuid "a2e4653a-89c9-4970-8552-18997dedb866")
+		)
+		(pin "4"
+			(uuid "311a89f2-88c7-4c6a-b8ad-85db7bb69f82")
+		)
+		(pin "1"
+			(uuid "bbdcd7db-42c0-4070-adf7-43d2c3ed82b1")
+		)
+		(pin "3"
+			(uuid "ff469a74-4da5-426f-9cac-bd12596456f6")
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 196.85 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf5027f6-05e4-4d46-a7ea-306d352ab1d3")
+		(property "Reference" "H4"
+			(at 199.39 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 199.39 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4mm"
+			(at 196.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 196.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf12b0e7-e593-4fd5-804b-9dc65056af59")
+		(property "Reference" "#PWR04"
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f5281dd-5643-4c04-85a3-d7f46fb7df0e")
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3b747f2-fa96-4ec3-a602-cab3e090b277")
+		(property "Reference" "#PWR010"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9561d1a-891a-4599-8720-08a499571b8f")
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 99.06 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ded90817-d8bd-4bec-bef8-93322e41f577")
+		(property "Reference" "J1"
+			(at 101.6 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAN1_IN"
+			(at 101.6 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:643260100405"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03f81f47-569b-41e5-a476-fa82b4fe66e9")
+		)
+		(pin "5"
+			(uuid "09ce21db-8acf-4188-a625-14f7f455e682")
+		)
+		(pin "4"
+			(uuid "d5482ff3-5aa5-4c48-aa89-248d26fd2daa")
+		)
+		(pin "1"
+			(uuid "a44bde7d-42ad-47ad-a2df-28f4c28b44a7")
+		)
+		(pin "3"
+			(uuid "4cc77607-0ac3-4ca8-9844-6e2a01def8f6")
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 160.02 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7314b55-be2f-48e9-b9c9-5a82f32cd8bb")
+		(property "Reference" "J5"
+			(at 162.56 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Can1_4"
+			(at 162.56 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:643260100405"
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1adfa0fd-f763-4d1a-9d9e-c868f11ebb50")
+		)
+		(pin "5"
+			(uuid "d14ca93d-aca8-45db-b261-13db7e04ad41")
+		)
+		(pin "4"
+			(uuid "9840fa04-9af8-4f9d-b987-4d96e06515b3")
+		)
+		(pin "1"
+			(uuid "911a6320-feee-4ef6-80c7-8c8c3c082e33")
+		)
+		(pin "3"
+			(uuid "65ec4e77-fb9e-4311-9180-7287a0fb6c03")
+		)
+		(instances
+			(project "TTR9-Can1 Signal Box"
+				(path "/e50ebe1b-2400-4e87-b3d4-608592bb59f6"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
